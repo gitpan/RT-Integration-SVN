@@ -1,8 +1,3 @@
-0.03 Thu Feb 10 20:13:19 EST 2005
+0.04
 
-New features from Dave Rolsky:
-RT-Owner: foo 
-RT-TicketProperty: X
-^^ doesn't work with custom fields though, but it's darn handy to set TimeWorked
-
-Output when it's successful, which makes testing way easier.
+README updates

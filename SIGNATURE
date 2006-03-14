@@ -1,12 +1,12 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.41.
+signed via the Module::Signature module, version 0.50.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
 
     % cpansign -v
 
-It would check each file's integrity, as well as the signature's
+It will check each file's integrity, as well as the signature's
 validity.  If "==> Signature verified OK! <==" is not displayed,
 the distribution may already have been compromised, and you should
 not run its Makefile.PL or Build.PL.
@@ -14,26 +14,28 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 e2005de51f0dd890bafa2c0c7ea8319ab3962337 Changes
-SHA1 9f9286c4d8c707a686bfd8e889a9c41e94c36156 MANIFEST
-SHA1 43ed73d56d434b23a291b6f830cad59295bc6717 META.yml
+SHA1 f3282b4e10e7849a7e44df9af8328613563b77b4 Changes
+SHA1 48515b4c57d6e4ba24097df1aa9af9f1b0d33498 MANIFEST
+SHA1 23f549d78739a8b7c0c4d0f49766b26563a3e1cb META.yml
 SHA1 8fb636a5f8a5eb2b96982879ab864365a168bafd Makefile.PL
-SHA1 ffae411f90d3ccd2060dd3b4b49916ac6045ba58 README
-SHA1 4432b8c6632e6225808d96f206777a1bb5c01582 html/SVN/PullUpdate.html
-SHA1 05d89e1fe6d49cd518b5a3e6694cc313e655fb02 inc/Module/Install.pm
-SHA1 2e300b145ee61eea9dfd71624b17b0bc9218aa4f inc/Module/Install/Base.pm
-SHA1 29ce36027266c1839b496bf660396e0a91ab53cf inc/Module/Install/Can.pm
-SHA1 c0f347c388074beb42aad080661c7e3552110c71 inc/Module/Install/Fetch.pm
-SHA1 e094fe96aef06c68d7a424818c12e52b11f1ccdd inc/Module/Install/Makefile.pm
-SHA1 e448c6dc5351ef425e3f8bdbeb642409120bc3ca inc/Module/Install/Metadata.pm
-SHA1 4514aade933a86275cbe91ff736b3a8f4b8d3b92 inc/Module/Install/RTx.pm
-SHA1 134de6ff2f762873b6a1af950dd53f8e0a801d73 inc/Module/Install/Win32.pm
-SHA1 1ec06df292af7f652d33db6129e9e4c7cc8b5095 inc/Module/Install/WriteAll.pm
-SHA1 a618d867581a5ef769a2c4925708b33b6a3ae6f7 lib/RT/Integration/SVN.pm
+SHA1 4fb6e87a81210bc717d864cf9412291a8e5cd15f README
+SHA1 7cf6724342489786c52e72d5341815d57c44e949 doc/rt-svk-integration-notes
+SHA1 48d7b99e6680a47fbc3b07611697153cf4b2dbee html/SVN/PullUpdate.html
+SHA1 cb8e59948a7f4f5c83c66588f8bab2ddfa1e62ca inc/Module/Install.pm
+SHA1 9dbed9ff1790473ec3136a606f062fa050326c43 inc/Module/Install/Base.pm
+SHA1 d37430abee4687a4861b1312e5bea6953e6afe4d inc/Module/Install/Can.pm
+SHA1 a784ba7d2b096084b2ffed3a7d853e2847f4dedb inc/Module/Install/Fetch.pm
+SHA1 044cd2f160364fe36eca2ba35e16e7cf46c79138 inc/Module/Install/Makefile.pm
+SHA1 49e0d839edeb0f3e9af12fd2444b98365393a23e inc/Module/Install/Metadata.pm
+SHA1 f502de0d0610ec3a8a2dd0e32c9e12e2971a96aa inc/Module/Install/RTx.pm
+SHA1 2a1b494a7e5adaa3216e86d909dd5bf87d084c80 inc/Module/Install/Win32.pm
+SHA1 4a23fafe534363a99f0d936df9086ad243e692c9 inc/Module/Install/WriteAll.pm
+SHA1 662516a66169fac62144a44290e93232af9aa67b lib/RT/Integration/SVN.pm
+SHA1 272c53e6377bdcf08fa83693dfdfa8302ad6306b lib/RT/URI/svn.pm
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.2.5 (GNU/Linux)
+Version: GnuPG v1.4.1 (GNU/Linux)
 
-iD8DBQFCDBEJEi9d9xCOQEYRAgmBAJ9x9dU0gBWyrF8nN9AUF/Q9tBktdACgwZU2
-lAun9mVYJl4N73Vi7lS+Mkk=
-=Rise
+iD8DBQFEFwA9Ei9d9xCOQEYRAjErAKCcSSukydZtTMzPDOkk5WkN2zsZpwCgpczp
+7wJYKfdmZj3PIwC/8lMrPJM=
+=KhUm
 -----END PGP SIGNATURE-----
